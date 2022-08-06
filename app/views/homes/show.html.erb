@@ -1,0 +1,48 @@
+<style>
+    p {
+        margin: 0;
+    }
+
+    .container {
+        height: 24px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        font-family: sans-serif;
+        margin-bottom: 16px;
+    }
+
+    span {
+        color: red;
+    }
+
+    img {
+        margin-left: 16px;
+    }
+</style>
+
+<div class="container" id="js-target">
+  <p>Javascript (entrypoint): <span>not loaded</span>.</p>
+</div>
+
+<div class="container" id="js-async-target">
+  <p>Javascript (async): <span>not loaded</span>.</p>
+</div>
+
+<div class="container" id="css-target">
+  <p>CSS (entrypoint): <span>not loaded</span>.</p>
+</div>
+
+<div class="container" id="image-helper-target">
+  <p>Image (helper tag):</p>
+  <%= image_tag "logo.svg", height: 24 %>
+</div>
+
+<div class="container" id="image-css-target">
+  <p>Image (CSS):</p>
+  <div></div>
+</div>
+
+<div class="container" id="image-js-target">
+  <p>Image (JS):</p>
+</div>

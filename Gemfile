@@ -5,7 +5,7 @@ ruby "3.1.2"
 
 gem "rails", "~> 7.0.3", ">= 7.0.3.1"
 
-gem "propshaft"
+gem "propshaft", path: "../../gems/propshaft"
 gem "jsbundling-rails"
 gem "sqlite3", "~> 1.4"
 gem "puma", "~> 5.0"

@@ -1,1 +1,21 @@
-// Sassy
+#css-target span::before {
+  content: "loaded";
+  color: green;
+}
+
+#css-target span {
+  color: white !important;
+}
+
+#image-css-target div, #image-js-target img {
+  margin-left: 16px;
+  height: 24px;
+  width: 64px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: contain;
+}
+
+#image-css-target div {
+  background-image: url('logo.svg');
+}
