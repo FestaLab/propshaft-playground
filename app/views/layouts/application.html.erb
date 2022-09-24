@@ -6,6 +6,7 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+    <%= preload_link_tag("async.js") %>
   </head>
 
   <body>
